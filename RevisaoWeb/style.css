@@ -1,31 +1,16 @@
-header{
-    width: 100%;
-    height: 10vh;
-    background-color: black;
-    display: flex;
-}
-    header img{
-        height: 10vh;
-}.menu{
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.hamb{
+    display:none;
+    
 }.linkmenu{
     color: rgb(237, 250, 247);
     text-decoration: none;
-    font-size:24px;
+    font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
-}.hambuguer{
-    display:none;
-    
-}.footer{
-    color: rgb(237, 250, 247);
-    text-decoration: none;
-    font-size:24px;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-between;
+}
+.footer{
+width: 100%;
+position:absolute;
 }
 #bodyLogin {
     padding: 0;
@@ -52,8 +37,12 @@ header{
 }#bodyProduto{
     background:  linear-gradient(to right, #fdfffd, #525353);
 }
-
-
+.row{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .card-content label {
     color: #fff;
     font-size: 15px;
@@ -103,7 +92,9 @@ header{
     }
     .hambuguer{
         display: inline;
-    
+    .card-content-area{
+        display:none;
+    }
 }
 
 
